@@ -1,0 +1,31 @@
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+
+  }
+
+  .boxes-dash{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .box{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    border-radius:5px;
+    text-align: center;
+    background-color: white;
+
+  }
+  .box:hover{
+    background:rgb(183, 183, 183);
+    cursor:pointer;
+
+  }
+  .Title{
+    font-weight:bold;
+    font-size: 20px;
+  }
